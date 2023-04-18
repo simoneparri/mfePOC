@@ -1,0 +1,28 @@
+<h2>Dashboard</h2>
+<table>
+    <tr>
+        <td><router-outlet name="route1"></router-outlet></td>
+        <td class="noborder">&nbsp;</td>
+        <td><router-outlet name="route2"></router-outlet></td>
+    </tr>
+    <tr>
+        <td colspan="3" class="noborder">&nbsp;</td>
+    </tr>
+    <tr>
+        <td>
+            <router-outlet name="route3"></router-outlet>
+        </td>
+        <td class="noborder">&nbsp;</td>
+        <td>
+            <router-outlet name="route4"></router-outlet>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="3" class="noborder">&nbsp;</td>
+    </tr>
+    <tr>
+        <td colspan="3">
+            <router-outlet name="route5"></router-outlet>
+        </td>
+    </tr>
+</table>

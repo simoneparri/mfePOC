@@ -1,0 +1,16 @@
+{
+  "name": "root",
+  "license": "MIT",
+  "author": {
+    "name": "Simone Parri",
+    "email": "simone.parri@aubay.it"
+  },
+  "private": true,
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  },
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "start": "lerna run start --stream"
+  }
+}

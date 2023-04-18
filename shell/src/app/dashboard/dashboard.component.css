@@ -1,0 +1,13 @@
+table {
+    width: 100%;
+}
+
+td {
+    text-align: center;
+    border: 5px dotted black;
+    padding-bottom: 5px;
+}
+
+.noborder {
+    border: none;
+}

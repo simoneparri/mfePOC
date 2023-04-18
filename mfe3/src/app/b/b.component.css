@@ -1,0 +1,10 @@
+.comp-b {
+    border: #9ece19 solid 1px;
+    background: #7ca706;
+    border-radius: 2px;
+    display: block;
+    padding: 5px 10px;
+    width: 250px;
+    margin-left: 20px;
+  }
+  

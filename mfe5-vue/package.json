@@ -1,0 +1,34 @@
+{
+  "name": "mfe5",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": {
+    "name": "Simone Parri",
+    "email": "simone.parri@aubay.it"
+  },
+  "scripts": {
+    "build": "webpack --mode production",
+    "build:dev": "webpack --mode development",
+    "start": "webpack-dev-server --mode development",
+    "start:live": "webpack-dev-server --mode development --liveReload"
+  },
+  "devDependencies": {
+    "@babel/core": "7.9.6",
+    "@babel/preset-env": "^7.10.3",
+    "@vue/cli-service": "^4.5.0",
+    "@vue/compiler-sfc": "^3.0.11",
+    "babel-loader": "8.1.0",
+    "css-loader": "^3.5.3",
+    "html-webpack-plugin": "^4.5.0",
+    "style-loader": "1.2.1",
+    "url-loader": "^4.1.1",
+    "vue-loader": "16.0.0-beta.7",
+    "vue-template-compiler": "^2.6.12",
+    "webpack": "5.0.0",
+    "webpack-cli": "3.3.11",
+    "webpack-dev-server": "3.11.0"
+  },
+  "dependencies": {
+    "vue": "^3.0.11"
+  }
+}
